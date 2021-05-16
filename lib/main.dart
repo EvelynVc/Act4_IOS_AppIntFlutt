@@ -48,7 +48,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
             children: <Widget>[
               Container(
                 height: 170,
-                width: 540,
+                width: 572,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
 
