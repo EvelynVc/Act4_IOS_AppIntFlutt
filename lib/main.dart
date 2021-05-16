@@ -127,6 +127,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             borderSide: BorderSide(
                               color: Colors.teal[300],
                               width: 2.0,
+                              height: 50,
                             ), //fin de border side
                           ), //fin de enable border
                           //! Change the Focused Border
