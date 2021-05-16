@@ -6,7 +6,7 @@ class MyIFApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Calculadora IS',
+      title: 'Calculadora IS de Eve',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
