@@ -113,13 +113,12 @@ class _PaginaInicioState extends State<PaginaInicio> {
 
               Container(
                 padding: EdgeInsets.only(top: 5, bottom: 5),
-                width: 1000,
+                width: 10, //aqui
 
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     new Flexible(
-                      height: 571, //aqui
                       child: TextField(
                         decoration: InputDecoration(
                           labelText: 'Tiempo',
