@@ -52,7 +52,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
 
-                  image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/Luhhii/mis_imagenes/main/muebe.jpg'), alignment: Alignment.topCenter),
+                  image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/IS.jpg'), alignment: Alignment.topCenter),
                   border: Border.all(
                     color: Colors.teal[300],
                     width: 2.0,
