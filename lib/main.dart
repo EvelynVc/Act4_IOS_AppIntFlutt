@@ -174,7 +174,6 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 width: 1000,
                 height: 50,
                 child: Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     new Flexible(
                       child: RaisedButton(
