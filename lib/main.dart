@@ -111,8 +111,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
 
               SizedBox(height: 10),
 
-              Container(
-                mainAxisAlignment: MainAxisAlignment.center,
+              Container(  
                 padding: EdgeInsets.only(top: 5, bottom: 5),
                 width: 1000,
                 height: 50,
