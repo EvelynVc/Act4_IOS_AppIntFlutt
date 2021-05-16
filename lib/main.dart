@@ -8,7 +8,7 @@ class MyIFApp extends StatelessWidget {
     return MaterialApp(
       title: 'Calculadora IS',
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        primarySwatch: Colors.indigo,
       ),
       debugShowCheckedModeBanner: false,
       home: PaginaInicio(),
