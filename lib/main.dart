@@ -6,7 +6,7 @@ class MyIFApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Calculadora IS de Eve',
+      title: 'Calculadora IS',
       theme: ThemeData(
         primarySwatch: Colors.indigo,
       ),
@@ -29,7 +29,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Calculadora de IS'),
+        title: Text('Calculadora de IS de eve'),
       ), //fin de App Bar
 
       body: Padding(
