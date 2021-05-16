@@ -118,8 +118,6 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 height: 50,
 
                 child: Row(
-                  
-                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     new Flexible(
                       child: TextField(
@@ -145,15 +143,15 @@ class _PaginaInicioState extends State<PaginaInicio> {
                     new DropdownButton<String>(
                       items: [
                         DropdownMenuItem<String>(
-                          child: Text('meses'),
+                          child: Text('Meses'),
                           value: 'one',
                         ),
                         DropdownMenuItem<String>(
-                          child: Text('dias'),
+                          child: Text('Dias'),
                           value: 'two',
                         ),
                         DropdownMenuItem<String>(
-                          child: Text('años'),
+                          child: Text('Años'),
                           value: 'three',
                         ),
                       ],
@@ -162,7 +160,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                           _value = value;
                         });
                       },
-                      hint: Text('Select Item'),
+                      hint: Text('Selecciona'),
                       value: _value,
                     ), //fin de dropdown
                   ], //fin de widget
@@ -190,7 +188,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             child: Text(
                               "Calcular",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 20, color: Colors.white),
+                              style: TextStyle(fontSize: 15, color: Colors.white),
                             ),
                           ),
                         ),
@@ -209,7 +207,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             child: Text(
                               "Borrar",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 20, color: Colors.indigo[900]),
+                              style: TextStyle(fontSize: 15, color: Colors.indigo[900]),
                             ),
                           ),
                         ),
