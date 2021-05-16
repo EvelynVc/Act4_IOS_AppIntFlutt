@@ -119,7 +119,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    new Flexible(
+                    //aqui new flexible
                       child: TextField(
                         decoration: InputDecoration(
                           labelText: 'Tiempo',
@@ -138,7 +138,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                           ), //fin de outlineInput border
                         ), //fin de inputdecoration
                       ), //fin de TextField
-                    ),
+                    
                     SizedBox(width: 16),
                     new DropdownButton<String>(
                       items: [
