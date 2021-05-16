@@ -36,10 +36,10 @@ class _PaginaInicioState extends State<PaginaInicio> {
         padding: const EdgeInsets.all(1.5), //pading del body espacio blanco
 
         child: Container(
-          mainAxisAlignment: MainAxisAlignment.center,
           //contenedor gris
           color: Colors.blueGrey[50],
-          width: 360,
+          width: 1000,
+          height: 571,
 
           padding: const EdgeInsets.all(10), //pading del body espacio blanco
 
