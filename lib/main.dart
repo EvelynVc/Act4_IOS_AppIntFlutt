@@ -112,12 +112,13 @@ class _PaginaInicioState extends State<PaginaInicio> {
               SizedBox(height: 10),
 
               Container(
+                mainAxisAlignment: MainAxisAlignment.center,
                 padding: EdgeInsets.only(top: 5, bottom: 5),
-
                 width: 1000,
                 height: 50,
+
                 child: Row(
-                  width: 572,
+                  
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     new Flexible(
