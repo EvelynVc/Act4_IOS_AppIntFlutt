@@ -114,7 +114,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
               Container(
                 padding: EdgeInsets.only(top: 5, bottom: 5),
 
-                width: 1000, //aqui 50
+                width: 1000,
 
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -127,7 +127,6 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             borderSide: BorderSide(
                               color: Colors.teal[300],
                               width: 2.0,
-                              height: 50,
                             ), //fin de border side
                           ), //fin de enable border
                           //! Change the Focused Border
