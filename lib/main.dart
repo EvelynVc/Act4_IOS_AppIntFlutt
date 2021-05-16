@@ -50,6 +50,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 width: 572,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
+                  color: Colors.white,
                   image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/IS.jpg'), alignment: Alignment.topCenter),
                   border: Border.all(
                     color: Colors.teal[300],
