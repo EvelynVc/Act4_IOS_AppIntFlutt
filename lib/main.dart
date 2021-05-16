@@ -8,7 +8,7 @@ class MyIFApp extends StatelessWidget {
     return MaterialApp(
       title: 'Calculadora IS',
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
       home: PaginaInicio(),
@@ -36,11 +36,9 @@ class _PaginaInicioState extends State<PaginaInicio> {
         padding: const EdgeInsets.all(1.5), //pading del body espacio blanco
 
         child: Container(
-          mainAxisAlignment: MainAxisAlignment.center,
           //contenedor gris
           color: Colors.blueGrey[50],
-          width: 1000,
-          height: 571,
+          width: 360,
 
           padding: const EdgeInsets.all(10), //pading del body espacio blanco
 
@@ -53,7 +51,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
 
-                  image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/IS.jpg'), alignment: Alignment.topCenter),
+                  image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/Luhhii/mis_imagenes/main/muebe.jpg'), alignment: Alignment.topCenter),
                   border: Border.all(
                     color: Colors.teal[300],
                     width: 2.0,
@@ -114,10 +112,11 @@ class _PaginaInicioState extends State<PaginaInicio> {
 
               Container(
                 padding: EdgeInsets.only(top: 5, bottom: 5),
+
                 width: 1000,
                 height: 50,
-
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     new Flexible(
                       child: TextField(
@@ -143,15 +142,15 @@ class _PaginaInicioState extends State<PaginaInicio> {
                     new DropdownButton<String>(
                       items: [
                         DropdownMenuItem<String>(
-                          child: Text('Meses'),
+                          child: Text('meses'),
                           value: 'one',
                         ),
                         DropdownMenuItem<String>(
-                          child: Text('Dias'),
+                          child: Text('dias'),
                           value: 'two',
                         ),
                         DropdownMenuItem<String>(
-                          child: Text('Años'),
+                          child: Text('años'),
                           value: 'three',
                         ),
                       ],
@@ -160,7 +159,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                           _value = value;
                         });
                       },
-                      hint: Text('Selecciona'),
+                      hint: Text('Select Item'),
                       value: _value,
                     ), //fin de dropdown
                   ], //fin de widget
@@ -174,6 +173,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 width: 1000,
                 height: 50,
                 child: Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     new Flexible(
                       child: RaisedButton(
@@ -187,7 +187,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             child: Text(
                               "Calcular",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 15, color: Colors.white),
+                              style: TextStyle(fontSize: 25, color: Colors.white),
                             ),
                           ),
                         ),
@@ -206,7 +206,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             child: Text(
                               "Borrar",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 15, color: Colors.indigo[900]),
+                              style: TextStyle(fontSize: 25, color: Colors.indigo[900]),
                             ),
                           ),
                         ),
