@@ -185,7 +185,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             child: Text(
                               "CALCULAR",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 25, color: Colors.white),
+                              style: TextStyle(fontSize: 15, color: Colors.white),
                             ),
                           ),
                         ),
@@ -204,7 +204,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             child: Text(
                               "BORRAR",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 25, color: Colors.indigo[900]),
+                              style: TextStyle(fontSize: 15, color: Colors.indigo[900]),
                             ),
                           ),
                         ),
