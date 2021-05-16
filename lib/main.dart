@@ -38,7 +38,8 @@ class _PaginaInicioState extends State<PaginaInicio> {
         child: Container(
           //contenedor gris
           color: Colors.blueGrey[50],
-          //aqui
+          width: 1000,
+          height: 571,
 
           padding: const EdgeInsets.all(10), //pading del body espacio blanco
 
@@ -50,6 +51,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 width: 572,
                 decoration: BoxDecoration(
                   borderRadius: BorderRadius.circular(5),
+                  mainAxisAlignment: MainAxisAlignment.center, //aqui
 
                   image: DecorationImage(image: NetworkImage('https://raw.githubusercontent.com/EvelynVc/mis_imagenes/main/IS.jpg'), alignment: Alignment.topCenter),
                   border: Border.all(
