@@ -33,9 +33,10 @@ class _PaginaInicioState extends State<PaginaInicio> {
       ), //fin de App Bar
 
       body: Padding(
+        mainAxisAlignment: MainAxisAlignment.center,
         padding: const EdgeInsets.all(1.5), //pading del body espacio blanco
 
-        child: Container.center(
+        child: Container(
           //contenedor gris
           color: Colors.blueGrey[50],
           width: 360,
