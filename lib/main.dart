@@ -39,7 +39,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
           //contenedor gris
           color: Colors.blueGrey[50],
           height: 2000,
-          width: 900,
+          width: 2000,
           padding: const EdgeInsets.all(10), //pading del body espacio blanco
 
           child: Column(
