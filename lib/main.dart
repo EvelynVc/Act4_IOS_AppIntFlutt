@@ -117,6 +117,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                 width: 1000,
                 height: 50,
                 child: Row(
+                  width: 572,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     new Flexible(
@@ -188,7 +189,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             child: Text(
                               "Calcular",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 25, color: Colors.white),
+                              style: TextStyle(fontSize: 20, color: Colors.white),
                             ),
                           ),
                         ),
@@ -207,7 +208,7 @@ class _PaginaInicioState extends State<PaginaInicio> {
                             child: Text(
                               "Borrar",
                               textAlign: TextAlign.center,
-                              style: TextStyle(fontSize: 25, color: Colors.indigo[900]),
+                              style: TextStyle(fontSize: 20, color: Colors.indigo[900]),
                             ),
                           ),
                         ),
